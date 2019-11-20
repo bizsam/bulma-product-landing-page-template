@@ -167,6 +167,9 @@ Twitter Feed
 .box .icon:hover {
     color: #1E4132 !important;
 }
+#twitter-feed .container .is-size-7 {
+    padding: 20px;
+}
 
 /*
 Features
