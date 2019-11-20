@@ -17,6 +17,7 @@ https://github.com/hellobetkowski
     <title>Beautiful Landing Page with Bulma.io - Betkowski</title>
     <link rel="stylesheet" href="css/bulma.min.css">
     <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Calistoga|Open+Sans&display=swap" rel="stylesheet">
     <script defer src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/js/all.js"></script>
 </head>
 
@@ -33,12 +34,9 @@ https://github.com/hellobetkowski
                             <a class="navbar-item">
                                 <h3 class="logo has-text-green is-size-4">Fancy App</h3>
                             </a></div>
-                        <span class="navbar-burger burger" data-target="navbarMenuHeroA">
-                            <span></span>
-                            <span></span>
-                            <span></span>
-                        </span>
+
                         <div class="navbar-menu">
+
                             <div class="navbar-end">
                                 <a class="a-menu is-size-7 navbar-item">
                                     home
@@ -54,6 +52,11 @@ https://github.com/hellobetkowski
                                 </a>
                             </div>
                         </div>
+                        <span class="navbar-burger burger" data-target="navbarMenuHeroA">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </span>
                     </div>
                 </nav>
             </div>
@@ -62,7 +65,7 @@ https://github.com/hellobetkowski
                     <h1 class="has-text-green is-size-1 is-size-3-mobile">
                         An engaging headline
                     </h1>
-                    <p class="has-text-green paragraph">
+                    <p class="has-text-green">
                         Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
                     </p>
                     <button class="btn has-mustard-bg is-size-7 a-menu">
@@ -163,7 +166,7 @@ https://github.com/hellobetkowski
         <!-- Features -->
         <section id="features" class="section has-mustard-bg">
             <div class="container">
-                <div class="columns">
+                <div class="columns reverse-row-order">
                     <div class="column">
                         <h3 class="is-size-3">
                             Open Source, all the way
@@ -178,7 +181,7 @@ https://github.com/hellobetkowski
                 </div>
             </div>
             <div class="container">
-                <div class="columns reverse-row-order">
+                <div class="columns">
 
                     <div class="column">
                         <img class="feature-img" src="img/feature2.png" alt="feature" />
@@ -194,7 +197,7 @@ https://github.com/hellobetkowski
                 </div>
             </div>
             <div class="container">
-                <div class="columns">
+                <div class="columns reverse-row-order">
 
                     <div class="column">
                         <h3 class="is-size-3">
@@ -219,13 +222,13 @@ https://github.com/hellobetkowski
                     Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
                 </p>
                 <div class="field newsletter-field">
-  <div class="control">
-    <input class="input newsletter-input" type="text" placeholder="mail@example.com">
-  </div>
-</div>
-                 <button class="btn has-mustard-bg is-size-7 a-menu">
-                        sign up now
-                    </button>
+                    <div class="control">
+                        <input class="input newsletter-input" type="text" placeholder="mail@example.com">
+                    </div>
+                </div>
+                <button class="btn has-mustard-bg is-size-7 a-menu">
+                    sign up now
+                </button>
             </div>
         </section>
         <!-- END Newsletter -->
