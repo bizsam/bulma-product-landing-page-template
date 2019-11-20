@@ -4,7 +4,7 @@
 
 Free template for your next app/product, built with Bulma.io, designed in Adobe xd.
 
-Check it live on Runkod:
+### Check it live on Runkod:
 
 http://bulma-template.runkodapps.com
 
