@@ -147,7 +147,10 @@ Button
 Twitter Feed
 */
 #twitter-feed .columns {
-    margin: 0px 30px;
+    margin: 0px;
+}
+@media(max-width: 1024px) {
+    margin: 0px 10px;
 }
 
 .box {
